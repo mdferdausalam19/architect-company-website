@@ -226,7 +226,7 @@ nav li a {
 /* Sponsors Section Related Styles */
 .sponsor-container {
   text-align: center;
-  margin-bottom: 5rem;
+  margin-bottom: 7rem;
 }
 
 .sponsor-container h3 {
@@ -244,6 +244,19 @@ nav li a {
 .sponsors-img-container img {
   width: 165px;
 }
+
+/* Footer Related Styles */
+footer p {
+  color: #424242;
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 400;
+  border-radius: 8px;
+  background: #FFF4E7;
+  padding: 3rem;
+  margin-bottom: 8rem;
+}
+
 
 /* Responsive Media Queries */
 /* Mobile Devices */
@@ -275,9 +288,13 @@ nav li a {
   .feature-img img {
     width: 100%;
   }
+
   .ten-years-badge {
     position: static;
     max-width: 250px;
+  }
+  footer p {
+    padding: 1rem;
   }
 }
 
@@ -297,5 +314,8 @@ nav li a {
 
   .facts-card-container {
     flex-wrap: wrap;
+  }
+  footer p {
+    padding: 1.5rem;
   }
 }
